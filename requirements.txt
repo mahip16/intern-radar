@@ -1,0 +1,6 @@
+httpx
+SQLAlchemy
+psycopg[binary]
+alembic
+pytest
+ruff
