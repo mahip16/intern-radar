@@ -22,6 +22,8 @@ services:
         condition: service_healthy
     volumes:
       - ./src:/app/src
+      - ./migrations:/app/migrations
+      - ./alembic.ini:/app/alembic.ini
     command: python -m intern_radar.check_db
 
 volumes:
